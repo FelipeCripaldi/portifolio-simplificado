@@ -6,9 +6,9 @@ botaoMostrarProjetos.addEventListener('click', () => {
     esconderBotao();
 });
 
-// function esconderBotao() {
-//     botaoMostrarProjetos.classList.add("remover");
-// }
+function esconderBotao() {
+     botaoMostrarProjetos.classList.add("remover");
+}
 
 function mostrarMaisProjetos() {
     projetosInativos.forEach(projetoInativo => {
